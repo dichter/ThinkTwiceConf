@@ -43,6 +43,7 @@ public class ControlPanel implements Serializable {
 	private String sessionEmailAcceptedBody;
 	private String sessionEmailRejectedSubject;
 	private String sessionEmailRejectedBody;
+	private String Copyright;
 	private String unid;
 	private String sessionVoting;
 
@@ -97,11 +98,13 @@ public class ControlPanel implements Serializable {
 		this.setSessionEmailRejectedSubject(controlpaneldoc.getItemValueString("SessionEmailRejectedSubject"));
 		this.setSessionEmailRejectedBody(controlpaneldoc.getItemValueString("SessionEmailRejectedBody"));
 		this.setSessionVoting(controlpaneldoc.getItemValueString("SessionVoting"));
+		this.setCopyright(controlpaneldoc.getItemValueString("Copyright"));
 		this.setEnableExtraSessionFields(controlpaneldoc.getItemValueString("EnableExtraSessionFields"));
 		controlpaneldoc.recycle();
 		controlpanels.recycle();
 	}
 	
+
 	private Database getCurrentDatabase() {
 		NotesContext nc = NotesContext.getCurrentUnchecked();
 		return (null != nc) ? nc.getCurrentDatabase() : null;
@@ -322,7 +325,15 @@ public class ControlPanel implements Serializable {
 	public String getSessionVoting() {
 		return sessionVoting;
 	}
-
+	
+	public String getCopyright() {
+		return Copyright;
+	}
+	
+	public void setCopyright(String Copyright){
+		this.Copyright = Copyright;
+	}
+	
 	public void setEnableExtraSessionFields(String enableExtraSessionFields) {
 		this.enableExtraSessionFields = enableExtraSessionFields;
 	}

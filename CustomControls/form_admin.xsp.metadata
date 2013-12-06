@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" replicaid="80257A6A002CAD3E" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="77a" sequence="47" unid="90F77C46E261B1DD80257A95004B1556">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257C2A003B4A30" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="36a" sequence="10" unid="90F77C46E261B1DD80257A95004B1556">
 <created><datetime dst="true">20121012T144006,62+01</datetime></created>
-<modified><datetime>20130305T110706,75+00</datetime></modified>
-<revised><datetime>20130305T110706,74+00</datetime></revised>
-<lastaccessed><datetime>20130305T110706,75+00</datetime></lastaccessed>
-<addedtofile><datetime>20130220T125829,72+00</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<modified><datetime>20131122T175747,29+01</datetime></modified>
+<revised><datetime>20131122T175747,28+01</datetime></revised>
+<lastaccessed><datetime>20131122T175747,28+01</datetime></lastaccessed>
+<addedtofile><datetime>20131121T114758,67+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Administrator/O=Kompurity/C=DE</name></updatedby>
+<wassignedby><name>CN=Administrator/O=Kompurity/C=DE</name></wassignedby>
 <item name="$Flags"><text>gC~4;</text></item>
 <item name="$TITLE"><text>form_admin.xsp</text></item>
 
 
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 
 
 
 <item name="$FileNames" sign="true"><text>form_admin.xsp</text></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 

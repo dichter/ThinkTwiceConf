@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
  maintenanceversion='1.0' replicaid='C1257C2A003B4A30'>
-<noteinfo noteid='11e' unid='74ECA80277E63578C1257C2A003B4A41' sequence='7'>
+<noteinfo noteid='11e' unid='74ECA80277E63578C1257C2A003B4A41' sequence='10'>
 <created><datetime>20131121T114736,33+01</datetime></created>
-<modified><datetime>20131121T115036,21+01</datetime></modified>
-<revised><datetime>20131121T115036,20+01</datetime></revised>
-<lastaccessed><datetime>20131121T115036,20+01</datetime></lastaccessed>
+<modified><datetime>20131125T131856,65+01</datetime></modified>
+<revised><datetime>20131125T131856,64+01</datetime></revised>
+<lastaccessed><datetime>20131125T131856,64+01</datetime></lastaccessed>
 <addedtofile><datetime>20131121T114736,36+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Administrator/O=Kompurity/C=DE</name></updatedby>
 <item name='IconBitmap' summary='true'>
@@ -25,9 +25,10 @@ AAAAUEECICABAAD/////+A4DgA==
 </rawitemdata></item>
 <item name='$DBTheme'><text>blank.theme</text></item>
 <item name='$DefaultXPage'><text>home.xsp</text></item>
-<item name='$FlagsNoRefresh'><text/></item>
 <item name='$Daos'><text>0</text></item>
 <item name='$Flags'><text>J!7</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$FlagsNoRefresh'><text/></item>
 <item name='$TITLE'><text>Confdb-dev
-</text></item></note>
+#1Conference Management</text></item></note>
 
